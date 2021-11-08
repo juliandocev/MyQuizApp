@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyQuizApp</string>
+    <string name="text_app_name">Quiz App</string>
+    <string name="tv_welcome">Welcome</string>
+    <string name="tv_enterName">Please enter your name</string>
+    <string name="tv_AppCompatEditText">e.g. John.</string>
+</resources>
