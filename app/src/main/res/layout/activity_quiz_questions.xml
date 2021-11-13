@@ -14,14 +14,15 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/tv_Questions"
+            android:id="@+id/tv_question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_gravity="center"
             android:textSize="22sp"
-            android:textColor="@color/tv_text_gray"
-            tools:text="What country does this flag belong to?"/>
+            android:textColor="@color/tv_welcome_text"
+            tools:text="What country does this flag belong to?"
+            android:textAlignment="center"/>
 
         <ImageView
             android:id="@+id/iv_image"
@@ -57,6 +58,60 @@
                 android:textSize="14sp"
                 android:text="0/9"/>
         </LinearLayout>
+        <TextView
+            android:id="@+id/tv_option_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/tv_text_gray"
+            android:textSize="18sp"
+            tools:text="Argentina"/>
+        <TextView
+            android:id="@+id/tv_option_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/tv_text_gray"
+            android:textSize="18sp"
+            tools:text="Germany"/>
+        <TextView
+            android:id="@+id/tv_option_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/tv_text_gray"
+            android:textSize="18sp"
+            tools:text="Belgium"/>
+        <TextView
+            android:id="@+id/tv_option_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/tv_text_gray"
+            android:textSize="18sp"
+            tools:text="Finland"/>
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/design_default_color_on_primary"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
 
 
 

@@ -20,9 +20,10 @@ class MainActivity : AppCompatActivity() {
             if (etName.text.isEmpty()){
                 Toast.makeText(this, "Please enter your name", Toast.LENGTH_LONG).show()
             }else{//Moves to another screen
-                val intent = Intent(this, QuizQuestionsActivity::class.java) // Create a variable with the new activity, which is the new screen
+                val intent = Intent(this, QuizQuestionsActivity::class.java) // Create a variable with the new activity, which is the new screen.Every new screen is a new activity
+                intent.putExtra(Constants.USER_Name, etName.text.toString())
                 startActivity(intent) //  initiate the activity
-                finish()//You cant go back. The back button takes you our of the app
+                finish()//You can't go back. The back button takes you out of the app
             }
 
         }

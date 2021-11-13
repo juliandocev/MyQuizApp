@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="tv_welcome_text">#363a43</color>
     <color name="tv_text_gray">#7a8089</color>
+    <color name="default_option_border_bg">#e8e8e8</color>
 </resources>
